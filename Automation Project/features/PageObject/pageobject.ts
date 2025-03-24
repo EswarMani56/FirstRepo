@@ -2,7 +2,7 @@ class AutomationPracticePage {
     radioButtonOption(option: string) {
         return $(`[value="${option.toLowerCase()}"]`);
     }    
-
+    
     get dropdownMenu() {
         return $('#dropdown-class-example');
     }
